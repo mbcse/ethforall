@@ -113,9 +113,9 @@
                       </td>
                       <td class="align-middle text-center">
                         <% if(token.isAToken) { %>
-                          <button type="button" class="text-secondary text-xs font-weight-bold withdrawfromaavebtn" data-asset="<%=token.tokenAddress%>-<%=token.balance%>-<%=token.decimal%>"> Withdraw From Aave</span>
+                          <button type="button" class="badge badge-sm bg-gradient-danger withdrawfromaavebtn" data-asset="<%=token.tokenAddress%>-<%=token.balance%>-<%=token.decimal%>"> Withdraw From Aave</span>
                         <%}else{%>
-                          <button type="button" class="text-secondary text-xs font-weight-bold stakeonaavebtn" data-asset="<%=token.tokenAddress%>-<%=token.balance%>-<%=token.decimal%>">Stake on Aave</span>
+                          <button type="button" class="badge badge-sm bg-gradient-success stakeonaavebtn" data-asset="<%=token.tokenAddress%>-<%=token.balance%>-<%=token.decimal%>">Stake on Aave</span>
                          <%}%>
                       </td>
                     </tr>
